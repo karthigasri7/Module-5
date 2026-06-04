@@ -28,7 +28,9 @@ print(np.sort(a,axis=0))
 ```
 ## Output
 
-<img width="790" height="316" alt="image" src="https://github.com/user-attachments/assets/3480f147-e1ef-421f-9973-e12701c9a2d3" />
+<img width="801" height="215" alt="image" src="https://github.com/user-attachments/assets/dea641c1-e015-4d18-8002-24dd39465cdc" />
+
+
 
 ## Result
 Thus the python program for element wise comparison between two numpy array has been implemented and executed successfully.
