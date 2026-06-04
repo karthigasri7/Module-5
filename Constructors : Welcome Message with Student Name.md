@@ -11,9 +11,26 @@ To write a Python program that creates a **Student** class with a **default cons
 5. **Execute the Program**: Instantiate the `Student` class and call the `show` method.
 
 ## 🧾 Program
+```
+import numpy as np 
 
-Add code here
+a=np.array(eval(input())) 
 
+print("Given array") 
+
+print(end=" ") 
+
+print(a) 
+
+print() 
+
+print(np.sort(a,axis=0))
+```
 ## Output
 
+<img width="790" height="316" alt="image" src="https://github.com/user-attachments/assets/3480f147-e1ef-421f-9973-e12701c9a2d3" />
+
 ## Result
+Thus the python program for element wise comparison between two numpy array has been implemented and executed successfully.
+
+
