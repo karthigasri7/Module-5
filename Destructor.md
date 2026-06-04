@@ -21,9 +21,33 @@ The program defines a class `Demo` with:
    - Create an instance of the `Demo` class.
    - Delete the object using the `del` keyword.
 ## Program
-Add code Here
+```
+import numpy as np  
 
+a=np.array(eval(input())) 
+
+b=np.array(eval(input())) 
+
+print("Printing Original array") 
+
+print(a) 
+
+print("Array after deleting column 2 on axis 1") 
+
+c=np.delete(a,1,axis=1)  
+
+print(c) 
+
+print("Array after inserting column 2 on axis 1") 
+
+print(np.insert(c,1,b,axis=1))
+```
 ## 🧪 Output
 
+<img width="941" height="272" alt="image" src="https://github.com/user-attachments/assets/876ad118-6083-4b3e-81aa-14a9e6d9f314" />
+
+
 ## Result
+Thus the python program for replacing column in numpy has been implemented and executed successfully.
+
 
